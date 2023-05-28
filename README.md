@@ -1,1 +1,1 @@
-# TOP_landing_page
+# Landing page for the Odin Project
