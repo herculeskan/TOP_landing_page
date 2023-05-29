@@ -5,71 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Top Landing Page: Carlos Lara</title>
 </head>
 
 <body>
+    <!-- primero voy a hacer el header con el nav y dentro los links y el logo de la página a la esquina izquierda -->
     <header>
-        <img class="logo" src="img/logo.png" alt="logo">
-        <span class="logo_text">Header Logo</span>
+        <!-- Aquí voy a poner el logo -->
+        <div class="header_logo">
+            <img src="img/logo.png" alt="Logo">
+            <p class="header_logo__text">header logo</p>
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html">header link one</a></li>
-                <li><a href="index.html">header link two</a></li>
-                <li><a href="index.html">header link three</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact me</a></li>
             </ul>
         </nav>
     </header>
-    <div class="part1_container">
-        <section>
-            <aside class="aside1_container">
-                <h1>
-                    This page is awesome
-                </h1>
-                <p> This website has some subtext that goes here under the main title. It-s a smaller font and the color
-                    is lower constrats </p>
-                <button class="btn1">Sign up</button>
-            </aside>
-            <aside class="aside2_container"><img class="aside2_img1" src="img/image1.jpg" width="500px" height="500px"
-                    alt="Vaina"></aside>
-        </section>
-    </div>
-    <section>
-        <h2>Some random information</h2>
-        <div class="cuadro">
-            <img src="" alt="imagen de ejemplo">
-            <p></p>
-        </div>
-        <div class="cuadro">
-            <img src="" alt="imagen de ejemplo">
-            <p></p>
-        </div>
-        <div class="cuadro">
-            <img src="" alt="imagen de ejemplo">
-            <p></p>
-        </div>
-        <div class="cuadro">
-            <img src="" alt="imagen de ejemplo">
-            <p></p>
+    <!-- Según the odin project la página tiene 4 secciones, hay que adivinar cual es el contenido de cual -->
+    <!-- 1.Seccion de bienvenida, a la izquierda el título y a la derecha una imagen -->
+    <section class="sct1">
+        <h1 class="sct1_titulo"></h1>
+        <div class="parrafo"></div>
+        <img src="" alt="" class="imagen">
+    </section>
+    <!-- 2. Some randon information section -->
+    <section class="sct2">
+        <h2 class="sct2_titulo"></h2>
+        <div class="sct2_cuadro__container">
+            <div class="sect2_cuadro__item">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="sect2_cuadro__item">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="sect2_cuadro__item">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="sect2_cuadro__item">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
         </div>
     </section>
+    <!-- quote section -->
     <section>
-        <div class="quote">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis laudantium voluptatem
-                voluptas sed veritatis. Culpa perferendis ratione explicabo veritatis laborum ex architecto amet
-                praesentium dignissimos? Eaque corporis vero pariatur.</p>
-            <p> - el pepingo</p>
+        <div class="sct3_quote__container">
+            <p></p>
+            <blockquote></blockquote>
         </div>
     </section>
+    <!-- Floating and footer section -->
     <section>
-        <div class="signUpContainer">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, corrupti.
-            </p>
-            <button>sign</button>
+        <div class="sct3">
+            <h3></h3>
+            <p></p>
+            <button></button>
         </div>
+        <footer></footer>
     </section>
-    <footer></footer>
+
 </body>
 
 </html>
