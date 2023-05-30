@@ -74,7 +74,7 @@ nav > ul > li>a {
 
 .sct1 {
   margin:25px;
-  
+
  display: flex;
  /* border: solid red 1px; */
 justify-content: space-around;
@@ -114,8 +114,126 @@ margin-bottom: 100px;
 .sct1>.sct1_img__container>img{
   width:500px;
   height: 300px;
-  border: red solid ;
+  /* border: rgb(5, 5, 5) solid ; */
   /* margin:15px 500px ; */
   padding: 50px;
   align-self: flex-start;
+}
+
+/* --------- */
+
+/* ok, supongamos que aquí terminamos el section 2 para poder continuar con el proyecto */
+/* --------- */
+/* section3, aquí van cuatro cuadros con su respectivo figcaption, así que pondré esas 4 imagenes en en un flex box y listo, creo que sería muy fácil */
+
+.sct2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  margin:0 auto;
+  color:var(--dark-bg-color) ;
+  width: 100%;
+}
+.sct2_titulo{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--roboto);
+  color: var(--dark-bg-color);
+}
+.sct2_cuadro__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 25px;
+}
+.sect2_cuadro__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: #3882f6 solid 3px;
+  border-radius: 30px;
+  padding: 0px 0px 25px 0px;
+}
+
+figure>img{
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 10px 25px 0 50px;
+  align-self: center;
+}
+/* Esta última fue demasiado fácil. No quedó como esperaba pero algo quedó, me gustó como quedó. Por ende lo dejaré así */
+/* --------- */
+/* Ahora intentaré el sct3_quote__container y por último el footer*/
+.sct3_quote__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--font-second-color);
+  color: #1f2937 ;
+  font-size: 38px;
+  font-style: italic;
+  margin: 0 0 100px auto;
+  padding: 100px;
+
+}
+.sct3_quote__container > span {
+  flex:1;
+  margin-top: 50px;
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+/* --------- */
+/* Estuvo super fácil, falta codificar la última cosita y listo */
+/* --------- */
+.sct3{
+  background-color: white;
+  display: flex;
+  color: var(--dark-bg-color);
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.sct3_container{
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  padding: 50px;
+  border-radius: 25px;
+}
+.sct3_container h3 {
+  font-size: 24px;
+  color: #f9faf8;
+  padding:10px 0 25px 0;
+}
+.sct3_container > p {
+  font-size: 18px;
+  color: #f9faf8;
+  padding:10px 0 25px 0;
+  flex: 1;
+}
+
+.sct3_container > button {
+  align-self:flex-end;
+  background-color: transparent;
+  border: 2px solid var(--font-color);
+  color: #e5e7eb;
+  padding: 9px 20px;
+  font-size: large;
+  border-radius: 25px;
+  margin: 0 100px ;
+  flex: 1;
+}
+.footer{
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
